@@ -30,3 +30,7 @@ print(float("inf"))
 print(float("-inf"))
 
 # Python numbers are infinite so they never overflow
+
+# Min between numbers
+min = min(1,2,3, -5)
+print(min)
