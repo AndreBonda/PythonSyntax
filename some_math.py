@@ -12,8 +12,10 @@ print(-3 // 2) # --> -2
 print(int(-3 / 2)) # -3 / 2 = -1.5 --> int(-1.5) --> -1
 
 # Modding
+print('modding')
 print(10 % 3) # 1
 print(-10 % 3) # 2
+print(2 % 4)
 
 # Modding compliance with other programming languages
 import math
@@ -34,3 +36,5 @@ print(float("-inf"))
 # Min between numbers
 min = min(1,2,3, -5)
 print(min)
+
+print(abs(-1))

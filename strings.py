@@ -19,3 +19,12 @@ print(ord('A')) # 65
 # combine a list of strings (with an empty strings delimitor)
 strings = ["ab", "cd", "ef"]
 print("-".join(strings))
+
+print("pad left")
+string = "ciao_mare"
+padded = string.rjust(20, '0')
+print(padded) 
+
+print("integer to bin")
+i = 3
+print("", i, " in binario: ", bin(i))

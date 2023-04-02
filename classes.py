@@ -1,3 +1,5 @@
+import heapq
+
 # Class
 class MyClass:
     # Constructor

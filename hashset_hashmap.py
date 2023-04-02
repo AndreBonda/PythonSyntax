@@ -1,10 +1,15 @@
 mySet = set()
 
-mySet.add(1)
+mySet.add(5)
+mySet.add(6)
+mySet.add(6) # ignored
 mySet.add(2)
-mySet.add(2) # ignored
+mySet.add(1)
+mySet.add(10)
 
 print(mySet)
+popped = mySet.pop()
+print(popped)
 
 # list to set
 mySet = set([1,2,3,4])
@@ -17,6 +22,7 @@ print(mySet) #01234
 myMap = {}
 myMap["alice"] = 88
 myMap["bob"] = 77
+t = myMap["a"]
 print(myMap)
 print(myMap["alice"])
 
@@ -26,6 +32,10 @@ print(myMap)
 
 myMap = {i: i*2 for i in range(3)} # map --> 0,0 - 1,2 - 2,4
 print(myMap)
+
+word = "abcdef"
+map = {v: i for i, v in enumerate(word)}
+print(map)
 
 # looping through maps
 print('\n')

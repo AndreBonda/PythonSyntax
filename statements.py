@@ -50,6 +50,7 @@ for n1,n2 in zip(nums1, nums2):
     print(n1,n2)
 
 # Reversing
+print("reversing")
 nums = [1,2,3,4]
 nums2 = nums.copy()
 nums2.reverse()

@@ -7,6 +7,8 @@ arr.append(4)
 arr.append(5)
 popped = arr.pop()
 
+print(4 in arr)
+
 print(popped)
 print(arr)
 
@@ -36,3 +38,8 @@ print(a, b, c)
 # 2-D lists --> matrice 5x4 inizializzata a 0
 arr = [[0] * 4 for i in range(5)]
 print(arr)
+
+# max
+print("max")
+arr = [1,2,3]
+print(max(arr))
