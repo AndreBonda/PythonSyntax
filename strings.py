@@ -16,9 +16,13 @@ print(str(123) + str(123)) # 123123
 # get ASCII value of a character
 print(ord('A')) # 65
 
-# combine a list of strings (with an empty strings delimitor)
+# Array to string
+print("--- Array to string ---")
 strings = ["ab", "cd", "ef"]
-print("-".join(strings))
+print("-".join(strings)) #combine a list of strings (with an empty strings delimitor)
+
+chars = ["a","n","d","r","e","a"]
+print("".join(chars)) # andrea
 
 print("pad left")
 string = "ciao_mare"

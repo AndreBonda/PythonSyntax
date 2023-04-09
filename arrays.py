@@ -53,3 +53,9 @@ print(arr1 == arr2) # True
 arr1 = [1,2,3]
 arr2 = [1,2,4]
 print(arr1 == arr2) # False
+
+# Convert string to char array
+print("--- Convert string to char array ---")
+string = "andrea"
+arr = [char for char in string]
+print(arr) # ["a","n","d","r","e","a"]
