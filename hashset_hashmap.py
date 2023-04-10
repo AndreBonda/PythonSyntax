@@ -30,7 +30,7 @@ print(myMap["alice"])
 myMap = {"alice": 90, "bob": 100}
 print(myMap)
 
-myMap = {i: i*2 for i in range(3)} # map --> 0,0 - 1,2 - 2,4
+myMap = {i: i*2 for i in   (3)} # map --> 0,0 - 1,2 - 2,4
 print(myMap)
 
 word = "abcdef"

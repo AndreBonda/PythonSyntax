@@ -32,3 +32,9 @@ print(padded)
 print("integer to bin")
 i = 3
 print("", i, " in binario: ", bin(i))
+
+# Get only alphanum from a string
+print("--- Get only alphanum characters from a string ---")
+string = "Abc _!12"
+chars = [c for c in string if c.isalnum()]
+print(chars) # Abc12
