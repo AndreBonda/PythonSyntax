@@ -59,3 +59,58 @@ print("--- Convert string to char array ---")
 string = "andrea"
 arr = [char for char in string]
 print(arr) # ["a","n","d","r","e","a"]
+
+# list concat
+print([1,2,3]+[4,5,6]) # -> 1,2,3,4,5,6
+
+# ===== List methods
+l = [1,2,3]
+l.append(4)
+print(l) # 1,2,3,4
+
+l = [1,2,3]
+l.extend([4,5])
+print(l) # 1,2,3,4
+
+l = [1,2,3]
+l.insert(1,5)
+print(l) # 1,5,2,3
+
+l = [10,20,30]
+l.remove(20)
+print(l) # 10,30
+
+l = [1,2,3]
+popped = l.pop()
+print(popped) # 3
+print(l) # 1,2
+
+l = [10,20,30]
+popped = l.pop(1)
+print(popped) # 20
+print(l) # 10,30
+
+l = [10,20,30]
+l.clear()
+print(l) # []
+
+l = [10,20,30,40,50]
+l = l.index(20) # resituisce l'indice del numero -> 1
+print(l)
+
+l = [10,20,30,40,50]
+l = l.index(20, 0, 3) # resituisce l'indice del numero cercando in un range compreso tra l'indice 0 e 3 -> 1
+print(l)
+
+l = [1,1,2,3]
+print(l.count(1)) # 2
+
+l = [5,3,7,8,1]
+l.sort()
+print(l) # 1,3,5,7,8
+l.sort(reverse=True) # list.reverse()
+print(l) # 8,7,5,3,1
+
+l = [1,2,3]
+l2 = l.copy() # swallow copy - alternativa l2 = l[:]
+print(l2) # 1,2,3
