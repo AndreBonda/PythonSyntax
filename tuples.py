@@ -28,3 +28,11 @@ year, firstname, surname = t
 print(year)
 print(firstname)
 print(surname)
+
+# namedtuple
+# Utili per creare oggetti che sono un insieme di attributi senza custom methods (record)
+import collections
+
+Employee = collections.namedtuple("Employee", ['name', 'surname'])
+bestEmployee = Employee("Andrea", "Bondanini")
+print(bestEmployee) # Employee(name='Andrea', surname='Bondanini')

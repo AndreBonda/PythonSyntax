@@ -1,0 +1,1 @@
+In questi esempi vediamo l'utilità degli special methods (__nome_metodo__) in Python.
