@@ -1,26 +1,28 @@
-# Arrays (called lists in python)
-arr = [1,2,3]
-print(arr[0])
+# list
+a = [1,2,3]
+b = list()
+b.append(1)
+b.append(2)
+b.append(3)
 
-# Array sono dynamic di default, quindi utilizzabili come stack
-arr.append(4)
-arr.append(5)
-popped = arr.pop()
+print(a)
+print(b)
 
-print(4 in arr)
-
-print(popped)
-print(arr)
+# list sono dynamic di default, quindi utilizzabili come stack
+a.append(4)
+a.append(5)
+popped = a.pop()
+print(popped) # 5
+print(4 in a) # True
 
 # Insert
-arr.insert(1, 7) # inserisce 7 in posizione 1 --> O(N)
-print(arr)
+a.insert(1, 7) # inserisce 7 in posizione 1 --> O(N)
+print(a) # [1, 7, 2, 3, 4]
 
 # Inizializza un array di size n con i valori di default a 1
 n = 5
 arr = [1] * 5
-print(arr)
-print(len(arr))
+print(arr) # [1, 1, 1, 1, 1]
 
 # -1 non è out of bounds ma l'ultimo valore
 arr = [1, "abc", "cde"]
@@ -37,7 +39,7 @@ print(a, b, c)
 
 # 2-D lists --> matrice 5x4 inizializzata a 0
 arr = [[0] * 4 for i in range(5)]
-print(arr)
+print(arr) # [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
 
 # max
 print("max")
