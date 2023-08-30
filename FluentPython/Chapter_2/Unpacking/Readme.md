@@ -1,0 +1,1 @@
+L'unpacking è una operazione importante poiché evita l'utilizzo, prono agli errori, egli indici per l'estrazioni di elementi dalle sequenze
