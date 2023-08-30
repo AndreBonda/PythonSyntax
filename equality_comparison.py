@@ -19,20 +19,26 @@ class PersonComp:
 
     def __repr__(self) -> str:
         return self.name
+    
+a = [1,2,3]
+b = [1,2,3]
+print(a == b) # True
 
 p1 = Person("Andrea")
 p2 = Person("Andrea")
 print(p1 == p2) # False
+
 pset = set()
 pset.add(p1)
 pset.add(p2)
 
-for p in pset:
+for p in pset: # Andrea, Andrea
     print(p)
 
 p1 = PersonComp("Luca")
 p2 = PersonComp("Luca")
 print(p1 == p2) # True
+
 pset = set()
 pset.add(p1)
 pset.add(p2) # ignored because p1 is equal to p2

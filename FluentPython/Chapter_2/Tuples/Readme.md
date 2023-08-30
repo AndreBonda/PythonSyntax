@@ -1,0 +1,1 @@
+Le tuple possono essere utilizzate principalmente come liste immutabili o record.
