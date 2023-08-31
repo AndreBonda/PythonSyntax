@@ -33,10 +33,6 @@ print(arr[-2]) # second last value --> abc
 arr = ["a","b","c","d"]
 print(arr[1:4]) # stampa da posizione 1 compresa a 4 (non compresa)
 
-# Unpacking
-a, b, c = [1, 2, 3]
-print(a, b, c)
-
 # 2-D lists --> matrice 5x4 inizializzata a 0
 arr = [[0] * 4 for i in range(5)]
 print(arr) # [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]

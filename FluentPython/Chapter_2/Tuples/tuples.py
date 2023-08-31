@@ -22,13 +22,6 @@ print(t) # ()
 t = ("Hello",) # comma is needed
 print(t)
 
-# tuple unpacking
-t = 1995, "Andrea", "Bondanini"
-year, firstname, surname = t
-print(year)
-print(firstname)
-print(surname)
-
 # namedtuple
 # Utili per creare oggetti che sono un insieme di attributi senza custom methods (record)
 import collections

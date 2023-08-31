@@ -63,3 +63,6 @@ print(multi_line)
 # String concat
 concat = 'a' * 3 + 'b'
 print(concat) # -> aaab
+
+# Reverse a string
+print("ciao"[::-1])
