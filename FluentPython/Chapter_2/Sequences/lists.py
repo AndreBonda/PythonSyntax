@@ -122,3 +122,19 @@ print(c) # [1, 2, 3, 4, 5, 6]
 # Multiply lists
 m = [1] * 5
 print(m) # [1, 1, 1, 1, 1]
+
+# Augmented assignment operators (+= o *=)
+# Lo speciam method che viene invocato è __iadd__ (oppure __imul__ per l'operatore *). Se __iadd__ non è implementato viene invocato __add__ come fall back
+# Il comportamento dipende dal tipo di operando su cui eseguiamo l'augmented assignment
+
+# mutable sequence
+l = [1,2,3]
+print(id(l))
+l *= 2
+print(id(l)) # id rimane il medesimo poiché l'oggetto viene modificato in place
+
+# immutable sequences
+t = (1,2,3)
+print(id(t))
+t *= 2
+print(id(t)) # id cambia poiché essendo una immutable sequence, t referenzia un nuovo oggetto
