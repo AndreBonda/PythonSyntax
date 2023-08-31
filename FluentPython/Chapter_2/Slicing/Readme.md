@@ -1,0 +1,1 @@
+A common feature of list, tuple, str and all sequences types in Python
