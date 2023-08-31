@@ -112,3 +112,13 @@ print(l) # 8,7,5,3,1
 l = [1,2,3]
 l2 = l.copy() # swallow copy - alternativa l2 = l[:]
 print(l2) # 1,2,3
+
+# Add lists
+a = [1,2,3]
+b = [4,5,6]
+c = a + b
+print(c) # [1, 2, 3, 4, 5, 6]
+
+# Multiply lists
+m = [1] * 5
+print(m) # [1, 1, 1, 1, 1]
