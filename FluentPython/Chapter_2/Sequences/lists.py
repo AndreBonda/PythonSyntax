@@ -103,15 +103,39 @@ print(l)
 l = [1,1,2,3]
 print(l.count(1)) # 2
 
+# Sorting in place
 l = [5,3,7,8,1]
-l.sort()
+l.sort() # in place sorting
 print(l) # 1,3,5,7,8
-l.sort(reverse=True) # list.reverse()
-print(l) # 8,7,5,3,1
+
+# Sorting and return new list
+print("--- sorting and return new list")
+a = [3,1,2]
+b = sorted(a)
+print(a) # [3,1,2]
+print(b) # [1,2,3]
+
+# Sorting parameters (funziona sia con sorted(list) che con list.sort())
+print("--- sorting and parameters")
+# Reversing sort
+l = [1,2,3]
+l.sort(reverse=True)
+print(l)
+# Sorting by key
+names = ['Bob', 'Alan', 'Xi', 'Giangiacomo']
+names.sort(key=len)
+print(names) # ['Xi', 'Bob', 'Alan', 'Giangiacomo']
+
 
 l = [1,2,3]
 l2 = l.copy() # swallow copy - alternativa l2 = l[:]
 print(l2) # 1,2,3
+
+# shuffle elements
+import random
+l = [1,2,3,4,5,6,7]
+random.shuffle(l)
+print(l)
 
 # Add lists
 a = [1,2,3]
