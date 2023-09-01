@@ -1,0 +1,1 @@
+Gli array sono sequenze mutabili che per alcuni casi d'uso sono più performanti delle liste.
