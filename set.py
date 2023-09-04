@@ -16,6 +16,11 @@ print(mySet) # 0 1 2 3 4
 letters = [x for x in "abracadabra" if x not in "abc"]
 print(letters) # ['r', 'd', 'r']
 
+# Remove and return an arbitrary set element
+mySet = set([1,5,3,9,4,15,13])
+print("----- Pop")
+print(mySet.pop())
+
 # check element presence
 s = {1,2,3}
 print(2 in s) # True
