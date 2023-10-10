@@ -22,7 +22,7 @@ class Robot:
             
 robot = Robot()
 robot.handle_command(['BEEPER', 1, 10])
-robot.handle_command(('BEEPER', 1, 10))
+robot.handle_command(('Neck', 90))
 # robot.handle_command(['Invalid']) # raise an exception
 
 # pattern matching with nested tuples

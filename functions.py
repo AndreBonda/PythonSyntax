@@ -66,6 +66,8 @@ insert_names("Andrea", "Luca", "Giovanni", 1)
 
 # **othernames riceve un dictionary con tutti i keyword arguments eccetto quelli dichiarati esplicitamente
 # nella firma della funzione ()
+# othernames viene passato come dict
+print("\n Keyword arguments ** -----")
 def insert_names_v2(firstname, **othernames):
     print("My first name is", firstname) # Andrea
 
