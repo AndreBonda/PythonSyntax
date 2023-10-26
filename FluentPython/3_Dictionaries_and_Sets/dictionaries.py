@@ -4,6 +4,9 @@ d = {}
 # inizializzazione inline
 d = {"alice": 90, "bob": 100}
 
+print(d['alice']) # 90
+print(d.get('alice')) # 90
+
 # add key-value pair
 d["max"] = 88
 
