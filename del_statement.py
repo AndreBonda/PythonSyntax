@@ -15,7 +15,9 @@ l = [-2,-1,1,2,5,8,9]
 del l[:]
 print(l) # []
 
-# delete a variable. You can't reference it after this instruction
+# delete a variable. You can't reference it after this instruction.
+# Tecnincamente è sbagliato dire che stiamo eliminando l'array, poiché in realtà stiamo eliminando la variabile 'l'. L'array verrà eliminato di conseguenza dal GC se nessun altra
+# variabile è "bindata" all'array.
 l = [-2,-1,1,2,5,8,9]
 del l
 # print(l) -> It throws 'NameError: name 'l' is not defined'
