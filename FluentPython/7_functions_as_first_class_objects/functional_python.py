@@ -56,4 +56,3 @@ print(metro_areas) # [Metropolis(name='Tokyo', cc='JP', pop=36, coord=LatLon(lat
 name_and_lat_getter = attrgetter('name', 'coord.lat')
 names_and_lats = [name_and_lat_getter(area) for area in metro_areas]
 print(names_and_lats) # [('Tokyo', 35.43343), ('Rome', 12.43343), ('Mexico City', 7.65464), ('New York', 12.43343)]
-
